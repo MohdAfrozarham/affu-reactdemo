@@ -1,0 +1,27 @@
+.maincard{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.childcard{
+    padding: 20px;
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+    margin: 50px 50px; 
+    overflow: hidden;
+    text-transform: capitalize;
+}
+.childcard h5{
+    margin: 20px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+.childcard .name{
+    color: aliceblue;
+}
